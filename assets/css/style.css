@@ -80,6 +80,7 @@ li a:hover:not(.active) {
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
+    padding-bottom: 20px;
 }
 
 article{
@@ -122,4 +123,34 @@ footer{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Input formatting*/
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}
+
+input[type=submit]{
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 40px;
+    font-size: 16px;
 }
