@@ -49,7 +49,7 @@ nav{
     overflow: hidden;
 }
 
-#navLi{
+.navLi{
     float: left;
 }
 
@@ -97,11 +97,40 @@ h1{
     color: #cccccc;  
     font-size: 24px;
     vertical-align: auto;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 0px;
 }
 
 hr{
     margin: 20px 0px 20px 0px;
+}
+
+/*Input formatting*/
+input[type=text]{
+    width: 900px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}
+
+textarea{
+    width: 900px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: thin;
+}
+
+input[type=submit]{
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    width: 115px;
+    height: 40px;
+    font-size: 16px;
 }
 
 /* Footer element styling, sticky footer and centered content*/
@@ -125,32 +154,3 @@ footer{
     margin-right: auto;
 }
 
-/*Input formatting*/
-
-input[type=text]{
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
-    border-color: #dddddd;
-    border-style: solid;
-    border-width: thin;
-}
-
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
-    border-color: #dddddd;
-    border-style: solid;
-    border-width: thin;
-}
-
-input[type=submit]{
-    padding: 10px;
-    background-color: #4aaaa5;
-    color: white;
-    border: none;
-    width: 115px;
-    height: 40px;
-    font-size: 16px;
-}
