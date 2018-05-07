@@ -6,10 +6,23 @@ html, body{
     margin: 0px;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #cccccc;  
+    font-size: 24px;
+    vertical-align: auto;
+    margin: 10px 0px 0px 0px;
+}
+
 /* Provides wrapper and calculation for sticky footer*/
 .content{
     min-height: calc(100vh - 79px);
 }
+
 /*Header wrapper to fill full width of screen */
 header{
     float:left;
@@ -28,7 +41,7 @@ header{
     margin-right: auto;
 }
 
-#logo{
+.logo{
     float: left;
     background-color: #4aaaa5;
     color: white;
@@ -71,6 +84,8 @@ li a:hover:not(.active) {
     color: white;
 }
 
+/*****End of Navigation*****/
+
 /* Provides wrapper for page content under the header section*/
 #fullContent{
     clear: both;
@@ -92,12 +107,20 @@ article{
     padding:  0px 20px 20px 0px;
 }
 
-h1{
+.porfolioImg{
+    float: left;
+}
+
+.portfolioBanners{
+    position: absolute;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #cccccc;  
-    font-size: 24px;
-    vertical-align: auto;
-    margin: 10px 0px 0px 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
 }
 
 hr{
