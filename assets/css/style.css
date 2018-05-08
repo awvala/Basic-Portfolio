@@ -113,6 +113,7 @@ article{
 }
 
 /***** Minicontainer for the portfolio images and banners *****/
+
 .portfoliocontainer{
     display: inline-block;
     position: relative;
@@ -125,6 +126,7 @@ article{
 }*/
 
 /***** Color text banner at the bottom of the image link *****/
+
 .portfolioBanners{
     position: absolute;
     bottom: 10px;
@@ -148,7 +150,7 @@ hr{
 input[type=text]{
     width: 900px;
     padding: 10px 10px 10px 10px;
-    margin: 10px auto 10px auto;
+    margin: 10px auto 30px auto;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
@@ -157,7 +159,7 @@ input[type=text]{
 textarea{
     width: 900px;
     padding: 10px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 30px 0px;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
