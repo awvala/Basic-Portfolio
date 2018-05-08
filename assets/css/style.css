@@ -7,11 +7,10 @@ html, body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
 }
 
 h1{
-    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #cccccc;  
     font-size: 24px;
     vertical-align: auto;
@@ -120,11 +119,6 @@ article{
     margin: 10px 20px 10px 0px;
 }
 
-
-/*.porfolioImg{
-    float: left;
-}*/
-
 /***** Color text banner at the bottom of the image link *****/
 
 .portfolioBanners{
@@ -139,6 +133,10 @@ article{
     font-size: 20px;
     margin: 0px;
     text-decoration-line: none;
+    /* IE, Opera, Mozilla supports */
+    text-decoration:none;
+    z-index: 200;
+    left: 0px;
 }
 
 hr{
